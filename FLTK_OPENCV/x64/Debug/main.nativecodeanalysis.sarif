@@ -1,0 +1,4664 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'Fl_Boxtype' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/fltk/FL/Enumerations.H"
+                },
+                "region": {
+                  "startLine": 721,
+                  "startColumn": 19,
+                  "endLine": 721,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?fl_box@@YA?AW4Fl_Boxtype@@W41@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'Fl_Labeltype' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/fltk/FL/Fl_Widget.H"
+                },
+                "region": {
+                  "startLine": 450,
+                  "startColumn": 8,
+                  "endLine": 450,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?label@Fl_Widget@@QEAAXW4Fl_Labeltype@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'Fl_When' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/fltk/FL/Fl_Widget.H"
+                },
+                "region": {
+                  "startLine": 621,
+                  "startColumn": 25,
+                  "endLine": 621,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?when@Fl_Widget@@QEBA?AW4Fl_When@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::debug_build_guard::_InputArray::obj' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 14,
+                  "endLine": 106,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_InputArray@debug_build_guard@cv@@QEAA@AEBV?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::debug_build_guard::_InputArray::obj"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::debug_build_guard::_InputArray::flags' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 14,
+                  "endLine": 106,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_InputArray@debug_build_guard@cv@@QEAA@AEBV?$vector@V?$vector@_NV?$allocator@_N@std@@@std@@V?$allocator@V?$vector@_NV?$allocator@_N@std@@@std@@@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::debug_build_guard::_InputArray::flags"
+          }
+        },
+        {
+          "ruleId": "C6297",
+          "message": {
+            "text": "Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 503,
+                  "startColumn": 18,
+                  "endLine": 503,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mat@cv@@QEAA@HHHPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '<<' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '<<' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 503,
+                  "startColumn": 18,
+                  "endLine": 503,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mat@cv@@QEAA@HHHPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 503,
+                  "startColumn": 18,
+                  "endLine": 503,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mat@cv@@QEAA@HHHPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6297",
+          "message": {
+            "text": "Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 532,
+                  "startColumn": 18,
+                  "endLine": 532,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mat@cv@@QEAA@V?$Size_@H@1@HPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '<<' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '<<' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 532,
+                  "startColumn": 18,
+                  "endLine": 532,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mat@cv@@QEAA@V?$Size_@H@1@HPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 532,
+                  "startColumn": 18,
+                  "endLine": 532,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mat@cv@@QEAA@V?$Size_@H@1@HPEAX_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1341,
+                  "startColumn": 6,
+                  "endLine": 1341,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mat@cv@@QEAA@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1366,
+                  "startColumn": 11,
+                  "endLine": 1366,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??4Mat@cv@@QEAAAEAV01@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::MatStep::buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1476,
+                  "startColumn": 10,
+                  "endLine": 1476,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MatStep@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::MatStep::buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1482,
+                  "startColumn": 10,
+                  "endLine": 1482,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MatStep@cv@@QEAA@_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C6297",
+          "message": {
+            "text": "Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 2157,
+                  "startColumn": 12,
+                  "endLine": 2157,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?elemSize@SparseMat@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '<<' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '<<' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 2157,
+                  "startColumn": 12,
+                  "endLine": 2157,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?elemSize@SparseMat@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 2157,
+                  "startColumn": 12,
+                  "endLine": 2157,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?elemSize@SparseMat@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'm'. See line 2598 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 2601,
+                  "startColumn": 9,
+                  "endLine": 2601,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MatConstIterator@cv@@QEAA@PEBVMat@1@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2598,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2598,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2598,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2598,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2598,
+                            "startColumn": 71
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2600,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'_m' may be NULL (Skip this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2601,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "'_m' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'm'. See line 2612 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 2615,
+                  "startColumn": 9,
+                  "endLine": 2615,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MatConstIterator@cv@@QEAA@PEBVMat@1@V?$Point_@H@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2612,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2612,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2612,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2612,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2612,
+                            "startColumn": 71
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2614,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'_m' may be NULL (Skip this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                          },
+                          "region": {
+                            "startLine": 2615,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "'_m' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cv::UMatUsageFlags' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 3560,
+                  "startColumn": 7,
+                  "endLine": 3560,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UMat@cv@@QEAA@W4UMatUsageFlags@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 3849,
+                  "startColumn": 7,
+                  "endLine": 3849,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UMat@cv@@QEAA@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 3873,
+                  "startColumn": 13,
+                  "endLine": 3873,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??4UMat@cv@@QEAAAEAV01@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6297",
+          "message": {
+            "text": "Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 541,
+                  "startColumn": 61,
+                  "endLine": 541,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getElemSize@cv@@YA_KH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '<<' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '<<' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 541,
+                  "startColumn": 61,
+                  "endLine": 541,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getElemSize@cv@@YA_KH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 541,
+                  "startColumn": 61,
+                  "endLine": 541,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getElemSize@cv@@YA_KH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::dataOrder' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::dataOrder"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::alphaChannel' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::alphaChannel"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::tileInfo' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::tileInfo"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::imageDataOrigin' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::imageDataOrigin"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::roi' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::roi"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::maskROI' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::maskROI"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::imageId' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::imageId"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::colorModel' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::colorModel"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::BorderMode' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::BorderMode"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::imageData' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::imageData"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::nSize' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::nSize"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::align' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::align"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::imageSize' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::imageSize"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::widthStep' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::widthStep"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::nChannels' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::nChannels"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::ID' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::ID"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::width' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::width"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::origin' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::origin"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::depth' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::depth"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::BorderConst' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::BorderConst"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::channelSeq' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::channelSeq"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable '_IplImage::height' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 5,
+                  "endLine": 334,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0_IplImage@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "_IplImage::height"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::<unnamed-tag>::width' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 5,
+                  "endLine": 465,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::<unnamed-tag>::width"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::hdr_refcount' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 5,
+                  "endLine": 465,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::hdr_refcount"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::refcount' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 5,
+                  "endLine": 465,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::refcount"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::<unnamed-tag>::rows' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 5,
+                  "endLine": 465,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::<unnamed-tag>::rows"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::data' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 5,
+                  "endLine": 465,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::<unnamed-tag>::height' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 5,
+                  "endLine": 465,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::<unnamed-tag>::height"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::<unnamed-tag>::cols' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 5,
+                  "endLine": 465,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::<unnamed-tag>::cols"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::step' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 5,
+                  "endLine": 465,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::step"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 5,
+                  "endLine": 465,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::<unnamed-tag>::width' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 466,
+                  "startColumn": 5,
+                  "endLine": 466,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@AEBU0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::<unnamed-tag>::width"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::hdr_refcount' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 466,
+                  "startColumn": 5,
+                  "endLine": 466,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@AEBU0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::hdr_refcount"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::refcount' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 466,
+                  "startColumn": 5,
+                  "endLine": 466,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@AEBU0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::refcount"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::<unnamed-tag>::rows' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 466,
+                  "startColumn": 5,
+                  "endLine": 466,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@AEBU0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::<unnamed-tag>::rows"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::data' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 466,
+                  "startColumn": 5,
+                  "endLine": 466,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@AEBU0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::<unnamed-tag>::height' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 466,
+                  "startColumn": 5,
+                  "endLine": 466,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@AEBU0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::<unnamed-tag>::height"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::<unnamed-tag>::cols' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 466,
+                  "startColumn": 5,
+                  "endLine": 466,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@AEBU0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::<unnamed-tag>::cols"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::step' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 466,
+                  "startColumn": 5,
+                  "endLine": 466,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@AEBU0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::step"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMat::type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 466,
+                  "startColumn": 5,
+                  "endLine": 466,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMat@@QEAA@AEBU0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMat::type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMatND::type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 665,
+                  "startColumn": 5,
+                  "endLine": 665,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMatND@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMatND::type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMatND::dims' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 665,
+                  "startColumn": 5,
+                  "endLine": 665,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMatND@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMatND::dims"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMatND::refcount' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 665,
+                  "startColumn": 5,
+                  "endLine": 665,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMatND@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMatND::refcount"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMatND::hdr_refcount' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 665,
+                  "startColumn": 5,
+                  "endLine": 665,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMatND@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMatND::hdr_refcount"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMatND::data' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 665,
+                  "startColumn": 5,
+                  "endLine": 665,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMatND@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMatND::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMatND::dim' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 665,
+                  "startColumn": 5,
+                  "endLine": 665,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMatND@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMatND::dim"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvScalar::val' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+                },
+                "region": {
+                  "startLine": 1152,
+                  "startColumn": 5,
+                  "endLine": 1152,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvScalar@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvScalar::val"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc.hpp"
+                },
+                "region": {
+                  "startLine": 4802,
+                  "startColumn": 12,
+                  "endLine": 4802,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??ELineIterator@cv@@QEAAAEAV01@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc.hpp"
+                },
+                "region": {
+                  "startLine": 4819,
+                  "startColumn": 33,
+                  "endLine": 4819,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?pos@LineIterator@cv@@QEBA?AV?$Point_@H@2@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::m01' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::m01"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::inv_sqrt_m00' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::inv_sqrt_m00"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::m11' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::m11"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::m21' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::m21"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::mu03' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::mu03"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::mu12' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::mu12"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::m30' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::m30"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::m00' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::m00"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::m02' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::m02"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::m10' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::m10"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::m20' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::m20"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::mu20' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::mu20"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::mu30' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::mu30"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::mu21' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::mu21"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::mu02' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::mu02"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::mu11' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::mu11"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::m03' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::m03"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvMoments::m12' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+                },
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 5,
+                  "endLine": 414,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvMoments@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvMoments::m12"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvFont::font_face' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+                },
+                "region": {
+                  "startLine": 1130,
+                  "startColumn": 1,
+                  "endLine": 1130,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvFont@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvFont::font_face"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvFont::nameFont' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+                },
+                "region": {
+                  "startLine": 1130,
+                  "startColumn": 1,
+                  "endLine": 1130,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvFont@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvFont::nameFont"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvFont::dx' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+                },
+                "region": {
+                  "startLine": 1130,
+                  "startColumn": 1,
+                  "endLine": 1130,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvFont@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvFont::dx"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvFont::thickness' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+                },
+                "region": {
+                  "startLine": 1130,
+                  "startColumn": 1,
+                  "endLine": 1130,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvFont@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvFont::thickness"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvFont::line_type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+                },
+                "region": {
+                  "startLine": 1130,
+                  "startColumn": 1,
+                  "endLine": 1130,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvFont@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvFont::line_type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvFont::hscale' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+                },
+                "region": {
+                  "startLine": 1130,
+                  "startColumn": 1,
+                  "endLine": 1130,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvFont@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvFont::hscale"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvFont::ascii' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+                },
+                "region": {
+                  "startLine": 1130,
+                  "startColumn": 1,
+                  "endLine": 1130,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvFont@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvFont::ascii"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvFont::greek' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+                },
+                "region": {
+                  "startLine": 1130,
+                  "startColumn": 1,
+                  "endLine": 1130,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvFont@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvFont::greek"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvFont::cyrillic' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+                },
+                "region": {
+                  "startLine": 1130,
+                  "startColumn": 1,
+                  "endLine": 1130,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvFont@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvFont::cyrillic"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvFont::vscale' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+                },
+                "region": {
+                  "startLine": 1130,
+                  "startColumn": 1,
+                  "endLine": 1130,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvFont@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvFont::vscale"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CvFont::shear' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+                },
+                "region": {
+                  "startLine": 1130,
+                  "startColumn": 1,
+                  "endLine": 1130,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CvFont@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CvFont::shear"
+          }
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 563,
+                  "startColumn": 5,
+                  "endLine": 563,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 563,
+                  "startColumn": 39,
+                  "endLine": 563,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 563,
+                  "startColumn": 5,
+                  "endLine": 563,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 563,
+                  "startColumn": 39,
+                  "endLine": 563,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'this->val':  the readable size is '8' bytes, but 'i' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 1120,
+                  "startColumn": 5,
+                  "endLine": 1120,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??A?$Vec@M$01@cv@@QEBAAEBMH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                          },
+                          "region": {
+                            "startLine": 1119,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                          },
+                          "region": {
+                            "startLine": 1120,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'this->val[2]', (readable range is 0 to 1)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'this->val':  the readable size is '16' bytes, but 'i' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 1120,
+                  "startColumn": 5,
+                  "endLine": 1120,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??A?$Vec@M$03@cv@@QEBAAEBMH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                          },
+                          "region": {
+                            "startLine": 1119,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                          },
+                          "region": {
+                            "startLine": 1120,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'this->val[4]', (readable range is 0 to 3)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'this->val':  the readable size is '16' bytes, but 'i' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 1120,
+                  "startColumn": 5,
+                  "endLine": 1120,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??A?$Vec@N$01@cv@@QEBAAEBNH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                          },
+                          "region": {
+                            "startLine": 1119,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                          },
+                          "region": {
+                            "startLine": 1120,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'this->val[2]', (readable range is 0 to 1)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'this->val':  the readable size is '32' bytes, but 'i' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 1120,
+                  "startColumn": 5,
+                  "endLine": 1120,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??A?$Vec@N$03@cv@@QEBAAEBNH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                          },
+                          "region": {
+                            "startLine": 1119,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                          },
+                          "region": {
+                            "startLine": 1120,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'this->val[4]', (readable range is 0 to 3)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 555,
+                  "startColumn": 5,
+                  "endLine": 555,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 555,
+                  "startColumn": 39,
+                  "endLine": 555,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 555,
+                  "startColumn": 5,
+                  "endLine": 555,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 555,
+                  "startColumn": 39,
+                  "endLine": 555,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 571,
+                  "startColumn": 5,
+                  "endLine": 571,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 571,
+                  "startColumn": 39,
+                  "endLine": 571,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 571,
+                  "startColumn": 5,
+                  "endLine": 571,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 571,
+                  "startColumn": 39,
+                  "endLine": 571,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30141.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0104C1B0 -il C:\\Users\\q\\AppData\\Local\\Temp\\_CL_5a7042ffast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930141 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -Fox64\\Debug\\main.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\q\\source\\repos\\FLTK_OPENCV\\FLTK_OPENCV -analyze:rulesetdirectory ;Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I Z:\\Toolchain\\fltk\\build -I Z:\\Toolchain\\fltk -I Z:\\Toolchain\\opencv\\sources\\include -I Z:\\Toolchain\\opencv\\build\\include -I Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I Z:\\Toolchain\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///Z:/Toolchain/fltk/FL/Enumerations.H"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "25b7d38f432ce3ed892204110b764e34"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///Z:/Toolchain/fltk/FL/Fl_Widget.H"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "61ee76fbb6d3c89687061741b06cca8c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/mat.inl.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "44697fc330543168a5fc0ef2cdcf4bd4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/utility.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "19558171de1a4f681fd4ec98620dcca6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/types_c.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "14aab0316cecc72845cdd6ead9b336ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "63f8de9960afde82d1e4a9238d85a6d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/types_c.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3118b0053f809d8d8a975021e4a69b55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "738465bebd715b7a1d98e0621ad172ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///Z:/Toolchain/opencv/build/include/opencv2/core/matx.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3083ae37cb89a5146d11f4a5199a7c99"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/q/source/repos/fltk_opencv/fltk_opencv/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "962127f05d8dcfb164462c8d6d2bab47"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/q/source/repos/fltk_opencv/fltk_opencv/gui.h"
+          },
+          "hashes": {
+            "md5": "3dba5b9d3c5e326f904ac1b95f1618dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl.h"
+          },
+          "hashes": {
+            "md5": "2485b5a67bbeff302232681b561ce19e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_export.h"
+          },
+          "hashes": {
+            "md5": "b8381b2a5141c1a66b625935717dba77"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_utf8.h"
+          },
+          "hashes": {
+            "md5": "98cb2376490c4157d69dbbe319ed1b40"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_types.h"
+          },
+          "hashes": {
+            "md5": "a9b4c63ef5dcb77c0a8a98403a6a5887"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/build/fl/abi-version.h"
+          },
+          "hashes": {
+            "md5": "569adca614d12ad21e3428ba7b323a1f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_window.h"
+          },
+          "hashes": {
+            "md5": "5bd055d101f662cd9d94729dd4eb00e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_group.h"
+          },
+          "hashes": {
+            "md5": "e87411511c65c37fa80a2cd7cf72ba45"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_bitmap.h"
+          },
+          "hashes": {
+            "md5": "1c7417c6b3b5796b6b2deb5ab687c6ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_image.h"
+          },
+          "hashes": {
+            "md5": "5f29b1b6fbef92157027002a39fb8422"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_box.h"
+          },
+          "hashes": {
+            "md5": "a9f29ae5d2fe53fe1b99ceff07114a74"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_menu_bar.h"
+          },
+          "hashes": {
+            "md5": "b5fcace8c763e3d04dab1f6279e61535"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_menu_.h"
+          },
+          "hashes": {
+            "md5": "7f161bb4fbc4e0a1ea9d66826232eef6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_menu_item.h"
+          },
+          "hashes": {
+            "md5": "fd1c863ee75eb6d72a5926060d344d8e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_file_chooser.h"
+          },
+          "hashes": {
+            "md5": "5ec48ad70bbacb99f3f720c0491fa943"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_double_window.h"
+          },
+          "hashes": {
+            "md5": "2d7d6989edb60d6863d69e63576d8007"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_choice.h"
+          },
+          "hashes": {
+            "md5": "fbd58273f0757f9d347dd792088e7688"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_menu_button.h"
+          },
+          "hashes": {
+            "md5": "70b58f0bc6d910aa99d9634c1dabddde"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_button.h"
+          },
+          "hashes": {
+            "md5": "2fec416ce86d3c07a920e7c4c89a5cde"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_preferences.h"
+          },
+          "hashes": {
+            "md5": "03230c8e1058fca13104f1b961ccb7e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_tile.h"
+          },
+          "hashes": {
+            "md5": "3be59b23c9db511eaa5f0b9ef942099a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_file_browser.h"
+          },
+          "hashes": {
+            "md5": "e60b3a839d9b750aa44f8f84b6609a54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_browser.h"
+          },
+          "hashes": {
+            "md5": "e8602d2802d3446e7f57acf42e902d6e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_browser_.h"
+          },
+          "hashes": {
+            "md5": "50f2581a665e72813807c80f6cfe5820"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_scrollbar.h"
+          },
+          "hashes": {
+            "md5": "e5c3f8323aed9cc61fc3b8cd727cf901"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_slider.h"
+          },
+          "hashes": {
+            "md5": "6bd76f23e7c04ac5f1a80b66b51a57b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_valuator.h"
+          },
+          "hashes": {
+            "md5": "0f0712d97b005ce103a2a9528c3a3d6e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_file_icon.h"
+          },
+          "hashes": {
+            "md5": "9420dca58ee580b1d1b8e4d7cfa483b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/filename.h"
+          },
+          "hashes": {
+            "md5": "923a4ee7ca752bf48e3ddd0f112feb40"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_check_button.h"
+          },
+          "hashes": {
+            "md5": "2bf93ac699e9d35e656bdcd2116267b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_light_button.h"
+          },
+          "hashes": {
+            "md5": "3808171618c9a52998bccea1077b081f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_file_input.h"
+          },
+          "hashes": {
+            "md5": "aeb624163108d88e1877f3d1448a86c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_input.h"
+          },
+          "hashes": {
+            "md5": "be42a9a99927f7429f26891a862da58a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_input_.h"
+          },
+          "hashes": {
+            "md5": "927496b708bdcd6fa14fc8733a17cdfd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_return_button.h"
+          },
+          "hashes": {
+            "md5": "eb38d13ac5ce6c25227f1b32e781ae42"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_ask.h"
+          },
+          "hashes": {
+            "md5": "9fda5745b32510db6582c5dc15ad90a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_text_display.h"
+          },
+          "hashes": {
+            "md5": "c0a8b39797944e3df12dd13d3b383e55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_draw.h"
+          },
+          "hashes": {
+            "md5": "6e355400a5f6e6508148a25e646c364f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/x.h"
+          },
+          "hashes": {
+            "md5": "dd8060e7b2afc8b673b8d6a23b71846b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/win32.h"
+          },
+          "hashes": {
+            "md5": "22c37c2893222e80aaa6e30abf7b145c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_device.h"
+          },
+          "hashes": {
+            "md5": "519e84106fcb476a967be98f6934fae7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_plugin.h"
+          },
+          "hashes": {
+            "md5": "eeac7728e97bbaaf150c58831bce7bc5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_pixmap.h"
+          },
+          "hashes": {
+            "md5": "9cb832b91b92bce34a8da3ebf96eb541"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_rgb_image.h"
+          },
+          "hashes": {
+            "md5": "3b849fdf3deb1a9a704cd959477d2ed4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_text_buffer.h"
+          },
+          "hashes": {
+            "md5": "c9938c27ccc9412d2a37f0134516e2c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/fltk/fl/fl_jpeg_image.h"
+          },
+          "hashes": {
+            "md5": "da5b978fb243a038224ab5bda3fabc76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core.hpp"
+          },
+          "hashes": {
+            "md5": "1be1ecaaae2aaa6b87a39b167d9effbd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/cvdef.h"
+          },
+          "hashes": {
+            "md5": "2dec583f79a2b76ee747627e177df712"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/hal/interface.h"
+          },
+          "hashes": {
+            "md5": "aea81f75341b28751169a93c6f22df4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/cv_cpu_dispatch.h"
+          },
+          "hashes": {
+            "md5": "e6339248986ee12a1b6cded94d96112f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/version.hpp"
+          },
+          "hashes": {
+            "md5": "d0fa219c70c92f2775d287abb1fecef2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/base.hpp"
+          },
+          "hashes": {
+            "md5": "b679798990b799dd0e21a25580c32fbd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/opencv_modules.hpp"
+          },
+          "hashes": {
+            "md5": "695db44f5b3867088ebadf5568872b70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/cvstd.hpp"
+          },
+          "hashes": {
+            "md5": "3f39d23ee351972bd823f4d11a2289a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/ptr.inl.hpp"
+          },
+          "hashes": {
+            "md5": "a95ae0b4d858461b92d701b3e1101a1a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/neon_utils.hpp"
+          },
+          "hashes": {
+            "md5": "c8fd59164b24f28d2e476c76ea04440e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/vsx_utils.hpp"
+          },
+          "hashes": {
+            "md5": "f923d13495ae476889c952dcda6026b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/check.hpp"
+          },
+          "hashes": {
+            "md5": "6f6773f8a9f51a6aa5d13527f9300db9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/traits.hpp"
+          },
+          "hashes": {
+            "md5": "9cbe19f35e19ad7e2ee3e3ed88a6917d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/saturate.hpp"
+          },
+          "hashes": {
+            "md5": "56cb669e337ec6d98c35903d91b4cdb4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/fast_math.hpp"
+          },
+          "hashes": {
+            "md5": "90d34cb40287a1d9daa0fc60393e6e03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/types.hpp"
+          },
+          "hashes": {
+            "md5": "cca1938f7ca580c068adc547c3e305bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/mat.hpp"
+          },
+          "hashes": {
+            "md5": "b66c9a740e635d9114201909444c3794"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/bufferpool.hpp"
+          },
+          "hashes": {
+            "md5": "b83ce95edbd524cdb43c073a483379d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/persistence.hpp"
+          },
+          "hashes": {
+            "md5": "ae3337818bbfe08959a83c56d064e8c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/operations.hpp"
+          },
+          "hashes": {
+            "md5": "d13109511d435ecaa2bff152cdd4ab0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/cvstd.inl.hpp"
+          },
+          "hashes": {
+            "md5": "de3d3de3e7632b728fd9794a61530f99"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/core_c.h"
+          },
+          "hashes": {
+            "md5": "194bd38609112d6854d21e427d1ff332"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/optim.hpp"
+          },
+          "hashes": {
+            "md5": "422cb0e467f3350ecdc3dbabbb2d0123"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/core/ovx.hpp"
+          },
+          "hashes": {
+            "md5": "e69559d2017e1f67a5f34cdc9fbede0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/highgui.hpp"
+          },
+          "hashes": {
+            "md5": "5a2c8a97a201fb466b8d116a6bbecd67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/imgcodecs.hpp"
+          },
+          "hashes": {
+            "md5": "20c4904031042bb661b57061c3cf8f49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/videoio.hpp"
+          },
+          "hashes": {
+            "md5": "54eb902246aa957e5a6e1a77a0f61415"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/highgui/highgui_c.h"
+          },
+          "hashes": {
+            "md5": "db59a98d55ffe049aa7c7969fa26398f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/imgcodecs/imgcodecs_c.h"
+          },
+          "hashes": {
+            "md5": "788730bd75a1d99204e425a5d9e3d72a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///z:/toolchain/opencv/build/include/opencv2/videoio/videoio_c.h"
+          },
+          "hashes": {
+            "md5": "ddb4fb8c295d48b31ddc7fd5073ea405"
+          }
+        }
+      ]
+    }
+  ]
+}

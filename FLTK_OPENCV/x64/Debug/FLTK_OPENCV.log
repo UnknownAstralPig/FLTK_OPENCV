@@ -1,0 +1,9 @@
+﻿  gui.cpp
+C:\Users\q\source\repos\FLTK_OPENCV\FLTK_OPENCV\gui.cpp(128,58): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\Users\q\source\repos\FLTK_OPENCV\FLTK_OPENCV\gui.cpp(129,52): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\q\source\repos\FLTK_OPENCV\FLTK_OPENCV\gui.cpp(129,52): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\q\source\repos\FLTK_OPENCV\FLTK_OPENCV\gui.cpp(215,32): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\q\source\repos\FLTK_OPENCV\FLTK_OPENCV\gui.cpp(215,32): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\q\source\repos\FLTK_OPENCV\FLTK_OPENCV\gui.cpp(231,97): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\q\source\repos\FLTK_OPENCV\FLTK_OPENCV\gui.cpp(236,97): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  FLTK_OPENCV.vcxproj -> C:\Users\q\source\repos\FLTK_OPENCV\x64\Debug\FLTK_OPENCV.exe
